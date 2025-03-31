@@ -2,22 +2,28 @@ package herancapolimorfismo;
 
 public abstract class Transporte {
 
-	private String nome;
+	private String marca;
 	private int capacidade;
 	private int velocidade;
 	
-	public Transporte(String nome, int capacidade, int velocidade) {
-		this.nome = nome;
+	public Transporte(String marca, int capacidade, int velocidade) {
+		this.marca = marca;
 		this.capacidade = capacidade;
 		this.velocidade = velocidade;
 	}
 
-	public String getNome() {
-		return nome;
+	public Transporte() {
+	
 	}
 
-	public void setNome(String nome) {
-		this.nome = nome;
+
+
+	public String getNome() {
+		return marca;
+	}
+
+	public void setNome(String marca) {
+		this.marca = marca;
 	}
 
 	public int getCapacidade() {
@@ -42,7 +48,7 @@ public abstract class Transporte {
 		System.out.println("\n\n************************************************************");
 		System.out.println("Dados do Meio de Transporte:");
 		System.out.println("****************************************************************");
-		System.out.println("Nome: " + this.nome);
+		System.out.println("Marca: " + this.marca);
 		System.out.println("Número de passageiros: " + this.capacidade);
 		System.out.println("Limite " + this.velocidade + "Km de velocidade. " );
 

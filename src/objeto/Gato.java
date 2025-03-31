@@ -2,11 +2,12 @@ package objeto;
 
 public class Gato {
 	
-	String nome;
-	int idade;
-	String cor;
-	String raca;
-
+	 String nome;
+	 int idade;
+	 String cor;
+	 String raca;
+	
+	
 	public void Andar(){
 		System.out.println("Andoando no muro!");
 	}

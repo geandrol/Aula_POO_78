@@ -2,14 +2,14 @@ package conta;
 
 public class Conta {
 
-	/* Atributos da Classe Conta */
+	
 	private int numero;
 	private int agencia;
 	private int tipo;
 	private String titular;
 	private float saldo;
 	
-	/*Método Construtor da Classe Conta - com todos os parâmetros*/
+
 	public Conta(int numero, int agencia, int tipo, String titular, float saldo) {
 		this.numero = numero;
 		this.agencia = agencia;

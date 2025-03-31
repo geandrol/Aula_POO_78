@@ -2,10 +2,7 @@ package interfacepolimorfismo;
 
 public interface ControleRemoto {
 
-	void ligar();
-	
-	void desligar();
-	
-	void mudarCanal(int canal);
+	void mover(); 
+    void mover(int velocidade); 
 	
 }

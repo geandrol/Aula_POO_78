@@ -6,9 +6,8 @@ public class Carro extends Transporte{
 	private String placa;
 	private int chassi;
 	
-	
-	public Carro(String nome, int capacidade, int velocidade, int roda, String placa, int chassi) {
-		super(nome, capacidade, velocidade);
+	public Carro(String marca, int capacidade, int velocidade, int roda, String placa, int chassi) {
+		super(marca, capacidade, velocidade);
 		this.roda = roda;
 		this.placa = placa;
 		this.chassi = chassi;
